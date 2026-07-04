@@ -5,8 +5,8 @@
       "api": "openai-completions",
       "apiKey": "ollama",
       "models": [
+        {"id": "qwen2.5:14b", "contextWindow": 20000},
         {"id": "gemma4:12b", "contextWindow": 20000},
-        {"id": "qwen2.5:14b", "contextWindow": 20000}
       ]
     },
     "ollama_gpu_5070fe_tailscale": {

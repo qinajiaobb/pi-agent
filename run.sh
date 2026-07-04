@@ -10,8 +10,6 @@ set -e
 
 docker network create agents >/dev/null 2>&1 || :
 
-set -xe
-
 docker run --rm -it \
   --network agents \
   -p 0.0.0.0:80:3001 \
@@ -22,7 +20,7 @@ docker run --rm -it \
   -v $image-bin:/root/.pi/agent/bin \
   -v $image-ssh:/root/.ssh \
   -v $mount:/root/brain \
-  $image "$prompt" || WEBUI_RUNNING="true"
+  $image "$prompt" 2>/dev/null || WEBUI_RUNNING="true"
 
 if [[ $WEBUI_RUNNING == "true" ]]; then
   docker run --rm -it \

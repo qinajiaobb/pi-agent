@@ -2,7 +2,7 @@
 
 set -e
 
-PRIME_PROMPT="$(cat ~/brain/*.md || echo)"
+PRIME_PROMPT="$(cat ~/brain/*.md 2>/dev/null || echo)"
 
 if [[ ! -z $PRIME_PROMPT ]]; then
   set -x

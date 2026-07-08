@@ -36,11 +36,6 @@ RUN curl -fsSL https://pi.dev/install.sh | sh && \
 
 COPY models.json /root/.pi/agent/models.json
 
-COPY run-once.sh /usr/local/bin/pi-once
-COPY run-loop.sh /usr/local/bin/pi-loop
-
-RUN chmod +x /usr/local/bin/pi*
-
 COPY entry.sh /pi.sh
 RUN chmod +x /pi.sh
 

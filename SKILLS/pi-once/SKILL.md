@@ -12,7 +12,7 @@ tags: [agent, pi]
 1. execute the shell:
 
 ```shell
-pi-once "PROMPT GOES HERE"
+pi -p "PROMPT GOES HERE"
 ```
 
 2. you will receive a string which is hte docker container you just executed. 

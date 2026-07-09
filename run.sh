@@ -3,7 +3,7 @@
 
 image="pi-agent"
 mount="."
-folder=$(basename `pwd`)
+folder=$(basename `pwd` | sed 's/ /-/g')
 
 set -e
 

@@ -3,17 +3,17 @@
   "loops": [
     {
       "id": "1",
-      "prompt": "read AGENTS.md and run tasks",
+      "prompt": "read AGENTS.md and run",
       "trigger": {
         "type": "cron",
         "schedule": "*/5 * * * *"
       },
       "status": "active",
       "recurring": true,
-      "createdAt": 1783595459544,
-      "updatedAt": 1783603516078,
-      "expiresAt": 1784200259544,
-      "fireCount": 27
+      "createdAt": 1783603772094,
+      "updatedAt": 1783603772094,
+      "expiresAt": 1784208572094,
+      "fireCount": 0
     }
   ]
 }

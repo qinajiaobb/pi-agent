@@ -2,5 +2,5 @@
 
 set -xe
 
-exec pi "$@"
+exec pi --approve "$@"
 

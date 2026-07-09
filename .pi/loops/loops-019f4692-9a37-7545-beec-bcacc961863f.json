@@ -1,0 +1,19 @@
+{
+  "nextId": 2,
+  "loops": [
+    {
+      "id": "1",
+      "prompt": "read AGENTS.md and run tasks",
+      "trigger": {
+        "type": "cron",
+        "schedule": "*/5 * * * *"
+      },
+      "status": "active",
+      "recurring": true,
+      "createdAt": 1783595459544,
+      "updatedAt": 1783599015655,
+      "expiresAt": 1784200259544,
+      "fireCount": 12
+    }
+  ]
+}

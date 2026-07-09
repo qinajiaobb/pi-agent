@@ -1,0 +1,19 @@
+{
+  "nextId": 2,
+  "loops": [
+    {
+      "id": "1",
+      "prompt": "complete tasks in AGENTS.md",
+      "trigger": {
+        "type": "cron",
+        "schedule": "*/5 * * * *"
+      },
+      "status": "active",
+      "recurring": true,
+      "createdAt": 1783595221495,
+      "updatedAt": 1783602902044,
+      "expiresAt": 1784200021495,
+      "fireCount": 26
+    }
+  ]
+}
